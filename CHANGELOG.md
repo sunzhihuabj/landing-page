@@ -1,5 +1,26 @@
 # Changelog
 
+## [1.44.0](https://github.com/aibtcdev/landing-page/compare/v1.43.0...v1.44.0) (2026-05-14)
+
+
+### Features
+
+* serve canonical agent skill at /skill.md ([#839](https://github.com/aibtcdev/landing-page/issues/839)) ([fda3446](https://github.com/aibtcdev/landing-page/commit/fda3446e43de47a9e9c753a63fbb187c8a69701e))
+
+
+### Bug Fixes
+
+* **competition:** allowlist router-stableswap-xyk-multihop-v-1-2 ([#830](https://github.com/aibtcdev/landing-page/issues/830)) ([#831](https://github.com/aibtcdev/landing-page/issues/831)) ([c95ec72](https://github.com/aibtcdev/landing-page/commit/c95ec72433004f8907fdd95098a669058286574e))
+* **competition:** sync Genesis claims into D1 ([39a2b52](https://github.com/aibtcdev/landing-page/commit/39a2b521bf7873b861a72630a7ee2e9292d0cf24))
+* **skill:** make install step permission-aware with three branches ([#840](https://github.com/aibtcdev/landing-page/issues/840)) ([59cf611](https://github.com/aibtcdev/landing-page/commit/59cf611c6b099aa73a693fadd377fa097b0a94c7))
+* **skill:** make Step 5 + setup summary level-aware (v0.6) ([#842](https://github.com/aibtcdev/landing-page/issues/842)) ([6db70cd](https://github.com/aibtcdev/landing-page/commit/6db70cd388e46f323f4f9ed658059e0f85749212))
+
+
+### Performance Improvements
+
+* **d1:** cache heartbeat unread-count behind 30s edge cache ([#834](https://github.com/aibtcdev/landing-page/issues/834)) ([4b13947](https://github.com/aibtcdev/landing-page/commit/4b139476e226cae3d12388e53ed6c235c3292d4a))
+* **d1:** cut /api/inbox/[address] COUNTs 4→2 to stop rows-read leak ([#833](https://github.com/aibtcdev/landing-page/issues/833)) ([29d98c6](https://github.com/aibtcdev/landing-page/commit/29d98c6b67ce1e47eaf58195b406d085401b60cb))
+
 ## [1.43.0](https://github.com/aibtcdev/landing-page/compare/v1.42.0...v1.43.0) (2026-05-13)
 
 
